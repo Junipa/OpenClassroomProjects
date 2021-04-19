@@ -1,0 +1,74 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@Junipa
+amandinelemoult2109 /
+Vue-fr
+forked from OpenClassrooms-Student-Center/Vue
+
+1
+9
+
+    153
+
+Code
+Pull requests 2
+Actions
+Projects
+Wiki
+Security
+
+    Insights
+
+Vue-fr/cafe-with-a-vue/styles.css
+@bencodezen
+bencodezen feature: Add styles
+Latest commit 73e5908 on 30 Oct 2019
+History
+1 contributor
+42 lines (36 sloc) 635 Bytes
+.app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.description {
+  max-width: 960px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.menu-item__image {
+  max-width: 300px;
+}
+
+.shopping-cart {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
